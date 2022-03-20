@@ -9,4 +9,4 @@ if sexualidade == 'M':
 if sexualidade == 'H':
     print(f" Foi digitado  {sexualidade} portanto você é homossexual.")
 else:
-    print("Não foi digitado nenhuma das opções. Desta forma não há regitro de sexualidade")
+    print(f"A letra {sexualidade} não está como opção sexual.")
