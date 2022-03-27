@@ -16,4 +16,4 @@ if n2 > n3 and n3 > n1:
 if n1 > n3 and n3 > n2:
     print(f"Ordem decrescente n1: {n1} , n3: {n3} e n2: {n2}")
 else:
-    print(Atenção ! Houve um erro de digitação. ")
+    print("Atenção ! Houve um erro de digitação. ")
