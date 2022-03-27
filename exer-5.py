@@ -9,9 +9,11 @@ print("-"*56)
 nota1 = float(input("Digite a primira nota: "))
 nota2 = float(input("Digite a segunda nota: "))
 media = (nota1 + nota2 ) / 2
-if media >= 7:
-        print(f"Aprovado com média: {media} pontos.")
+if media >= 7 and media < 11:
+            print(f"Aprovado com média: {media} pontos.")
+if media > 11:
+    print(f"Você digitou números superiores a 10 pontos!")
 if media < 7:
-        print(f"Reprovado com média: {media} pontos. ")
+            print(f"Reprovado com média: {media} pontos. ")
 if media == 10:
-        print(f"Aprovado com Distinção sua média é: {media} pontos")
+            print(f"Aprovado com Distinção sua média é: {media} pontos")
