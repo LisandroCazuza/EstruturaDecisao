@@ -3,11 +3,11 @@ Peça para digitar M-matutino ou V-Vespertino ou N- Noturno. Imprima a
 mensagem "Bom Dia!", "Boa Tarde!" ou "Boa Noite!" ou "Valor Inválido!", conforme o caso."""
 print("-"*50)
 turno = input("Em qual turno você estuda?  ").title()
-if turno == 'M/m':
+if turno == 'M':
     print("Bom Dia! Estudante!")
-if turno == 'V/v':
+if turno == 'V':
     print("Boa Tarde! Estudante!")
-    if turno == 'N/n':
+if turno == 'N':
         print("Boa Noite! Estudante!")
-    else:
-        print("Valor Inválido!Estudante!")
+else:
+        print(f"Valor Inválido!Estudante! Você digitou a letra: {turno}. ")
