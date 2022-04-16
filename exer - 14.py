@@ -10,6 +10,7 @@ atribuição de conceitos obedece à tabela abaixo:
 O algoritmo deve mostrar na tela as notas, a média, o conceito 
 correspondente e a mensagem “APROVADO” se o conceito for A,
 B ou C ou “REPROVADO” se o conceito for D ou E.  """
-print("___________________________________________________________________")
-nota1 = float(input("Digite a primeira nota de geografia: "))
-nota2 = float(input("Digite a segunda nota de geografia: "))
+print("___________________________________________________________________\n")
+nota1 = float(input("\n\tDigite a primeira nota de geografia: "))
+nota2 = float(input("\n\tDigite a segunda nota de geografia: "))
+media = (nota1 + nota2)  / 2
